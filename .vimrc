@@ -57,3 +57,6 @@ set mouse=a
 
 " Hopfully this will let me use my delete key
 set backspace=indent,eol,start
+
+" Disable continuation of comments to next line
+au FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
