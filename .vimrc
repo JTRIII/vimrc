@@ -15,7 +15,8 @@ filetype indent on
 syntax on
 
 " Add numbers to each line on the left-hand side.
-set number
+" set number " This is to have absolute numbers
+set relativenumber " This is to have relative numbers
 
 " Set shift width to 4 spaces
 set shiftwidth=4
