@@ -61,3 +61,7 @@ set backspace=indent,eol,start
 
 " Disable continuation of comments to next line
 au FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
+
+" Press Esc Twice to Get Rid of Highlighting After doing a Search
+nnoremap <esc><esc> :noh<return>
+
