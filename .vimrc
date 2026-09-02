@@ -4,7 +4,6 @@ set nocompatible
 " Enable type file detection. Vim will be able to try to detect the type of file in use
 
 filetype on
-
 " Enable plugins and load plugin for the detected file type
 filetype plugin on
 
@@ -64,4 +63,3 @@ au FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
 " Press Esc Twice to Get Rid of Highlighting After doing a Search
 nnoremap <esc><esc> :noh<return>
-
